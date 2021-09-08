@@ -1,13 +1,80 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font: 14px 'Century Gothic', Futura, sans-serif;
+  margin: 20px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+ol,
+ul {
+  padding-left: 30px;
+}
+
+.ploca {
+  border: solid 3px blue;
+  width: 300px;
+  padding: 10px;
+}
+
+.ploca-row:after {
+  clear: both;
+  content: '';
+  display: table;
+}
+
+.status {
+  margin-bottom: 10px;
+}
+
+.polje {
+  background: #fff;
+  border: 1px solid #999;
+  float: left;
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 100px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 100px;
+}
+
+.poljeCoords {
+  font-size: 10px;
+}
+
+.polje:focus {
+  outline: none;
+}
+
+.kbd-navigation .polje:focus {
+  background: #ddd;
+}
+
+.igra {
+  display: flex;
+  flex-direction: row;
+  border: solid 3px magenta;
+  padding: 10px;
+  width: 770px;
+}
+
+.potezi {
+  display: flex;
+  flex-direction: row;
+  float: left;
+  border: solid 3px cyan;
+  width: 320px;
+  height: 320px;
+  height: 298px;
+  margin-left: 10px;
+  padding: 10px;
+}
+
+.button-new {
+  margin-left: 10px;
+}
+
+.igra-info {
+  margin-left: 20px;
 }
